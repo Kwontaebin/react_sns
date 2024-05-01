@@ -1,0 +1,76 @@
+#update_list_div_inner {
+    float: left;
+    width: 100%;
+    height: 480px;
+}
+
+#update_list_div_inner>#update_post_list_img {
+    float: left;
+    width: 100%;
+    height: 250px;
+}
+
+#update_post_list_img>img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    top: 20px;
+    left: 170px;
+}
+
+#update_post_list_img>input {
+    float: left;
+    position: relative;
+    top: 180px;
+    left: 20px;
+}
+
+#update_list_div_inner>#update_post_list_content {
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+
+#update_post_list_content>input {
+    float: left;
+    width: 80%;
+    height: 80%;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#update_list_div_inner>#update_post_list_footer {
+    float: left;
+    width: 100%;
+    height: 80px;
+}
+
+#update_post_list_footer>button {
+    float: right;
+    margin-right: 20px;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+}
+
+#update_post_list_footer>#post_update_btn {
+    background-color: green;
+    border: 1px solid black;
+}
+
+#update_post_list_footer>#post_delete_btn {
+    background-color: red;
+    border: 1px solid black;
+}

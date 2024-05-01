@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "basic_font";
+  src: url("./font/Cafe24Shiningstar-v2.0.ttf");
+}
+
+p, span, h1 {
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+}

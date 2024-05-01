@@ -1,0 +1,12 @@
+#view_detail_img {
+    float: left;
+    width: 100%;
+    height: 250px;
+    background-color: beige;
+}
+
+#view_detail_img>img {
+    float: left;
+    width: 100%;
+    height: 100%;
+}

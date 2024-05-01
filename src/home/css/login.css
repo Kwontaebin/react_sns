@@ -1,0 +1,73 @@
+#login {
+    margin: 100px auto;
+    width: 550px;
+    height: 600px;
+}
+
+#login>#login_header {
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+
+#login_header>#login_header_logo {
+    font-family: "basic_font";
+    color: mediumpurple;
+    font-size: 70px;
+    float: left;
+    position: relative;
+    bottom: 50px;
+    left: 220px;
+}
+
+#login>#login_center {
+    float: left;
+    width: 100%;
+    height: 400px;
+}
+
+#login_center>input {
+    display: block;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    left: 70px;
+    margin-top: 30px;
+    border-radius: 50px;
+    border: 1px solid white;
+    font-size: 20px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+
+#login_center>button {
+    float: left;
+    width: 400px;
+    height: 70px;
+    position: relative;
+    top: 60px;
+    left: 70px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+#login_center>span {
+    float: right;
+    position: relative;
+    top: 65px;
+    right: 100px;
+    color: mediumpurple;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#login>#login_footer {
+    float: left;
+    width: 100%;
+    height: 100px;
+}

@@ -1,0 +1,12 @@
+#update_post_div {
+    margin: 60px auto;
+    width: 500px;
+    height: 550px;
+    background-color: ghostwhite;
+}
+
+#update_post_div>#update_post_div_inner {
+    float: left;
+    width: 100%;
+    height: 480px;
+}

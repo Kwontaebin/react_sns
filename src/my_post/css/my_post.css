@@ -1,0 +1,17 @@
+#my_post_div {
+    margin: 60px auto;
+    width: 550px;
+    height: 600px;
+    background-color: ghostwhite;
+}
+
+#my_post_div>#my_post_div_center {
+    float: left;
+    width: 100%;
+    height: 530px;
+    overflow-y: scroll;
+}
+
+#my_post_div>#my_post_div_center::-webkit-scrollbar {
+    display: none;
+}

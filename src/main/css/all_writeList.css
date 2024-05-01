@@ -1,0 +1,173 @@
+#all_write_list_div {
+    margin: 0 auto;
+    width: 80%;
+    height: 600px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+#input_id_value {
+    display: none;
+}
+
+#all_write_list_div>#all_write_list_div_header {
+    float: left;
+    width: 100%;
+    height: 300px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#all_write_list_div_header>#write_img {
+    float: left;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#all_write_list_div>#all_write_list_div_footer {
+    float: left;
+    width: 100%;
+    height: 300px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#all_write_list_div_footer>#all_write_list_div_footer_top {
+    float: left;
+    width: 100%;
+    height: 35px;
+    position: relative;
+    top: 10px;
+}
+
+#all_write_list_div_footer_top>#write_user_icon_div {
+    float: left;
+    width: 35px;
+    height: 100%;
+    background-color: darkgray;
+    border-radius: 100%;
+    position: relative;
+    left: 20px;
+}
+
+#write_user_icon_div>#write_user_icon {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+#all_write_list_div_footer_top>p {
+    display: inline-block;
+}
+
+#all_write_list_div_footer_top>#write_user_name {
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+    left: 30px;
+    font-size: 16px;
+}
+
+#all_write_list_div_footer_top>#write_date {
+    position: relative;
+    bottom: 10px;
+    left: 40px;
+    font-size: 12px;
+    color: darkgrey;
+    font-weight: bold;
+}
+
+#all_write_list_div_footer_top>#comment_length_text {
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+    color: darkgrey;
+    font-weight: bold;
+}
+
+#all_write_list_div_footer_top>#view_comment {
+    float: right;
+    position: relative;
+    right: 35px;
+}
+
+#all_write_list_div_footer_top>#like_img {
+    float: right;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    right: 20px;
+
+}
+
+
+#all_write_list_div_footer>#write_content_div {
+    float: left;
+    width: 100%;
+    height: 245px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    top: 20px;
+}
+
+#write_content_div>#write_content {
+    float: left;
+    font-size: 16px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+#all_write_list_div_footer>#comment_list_div {
+    float: left;
+    width: 100%;
+    height: 245px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    top: 20px;
+    display: none;
+}
+
+#comment_list_div>#comment_list_div_top {
+    float: left;
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+#comment_list_div_top::-webkit-scrollbar {
+    display: none;
+}
+
+#comment_list_div>#comment_list_div_bottom {
+    float: left;
+    width: 100%;
+    height: 45px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#comment_list_div_bottom>#write_comment_input {
+    float: left;
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+#comment_list_div_bottom>#write_comment_btn {
+    position: relative;
+    left: 340px;
+    bottom: 33px;
+    font-weight: bold;
+    color: mediumslateblue;
+}

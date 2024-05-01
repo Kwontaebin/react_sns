@@ -1,0 +1,38 @@
+#friend_list_div_inner {
+    float: left;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+#friend_list_div_inner>#friend_list_div_user_icon_div {
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    position: relative;
+    top: 5px;
+    left: 40px;
+}
+
+#friend_list_div_user_icon_div>img {
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+#friend_list_div_inner>p {
+    display: inline;
+    position: relative;
+    top: 8px;
+    left: 50px;
+}
+
+#friend_list_div_inner>img {
+    float: right;
+    position: relative;
+    right: 30px;
+    top: 3px;
+}

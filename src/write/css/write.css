@@ -1,0 +1,96 @@
+#write {
+    margin: 60px auto;
+    width: 500px;
+    height: 600px;
+    background-color: rgb(212, 212, 249);
+}
+
+#write>#write_header {
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+
+#write_header>#write_header_left {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+#write_header_left>#back_btn {
+    width: 80px;
+    height: 40px;
+    background-color: ghostwhite;
+    border: 1px solid gray;
+    font-family: "basic_font";
+    font-size: 22px;
+    position: relative;
+    top: 5px;
+    left: 30px;
+    border-radius: 10px;
+}
+
+#write_header>#write_header_right {
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+#write_header_right>#write_header_text {
+    font-family: "basic_font";
+    position: relative;
+    bottom: 25px;
+    left: 80px;
+    font-size: 40px;
+}
+
+#write>#write_img {
+    float: left;
+    width: 100%;
+    height: 300px;
+    border-top: 1px solid lavender;
+}
+
+#write_img>#file_input {
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+#write_img>#img_preview {
+    float: left;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 80px;
+    right: 100px;
+}
+
+#write>#write_content {
+    float: left;
+    width: 100%;
+    height: 250px;
+    border-top: 1px solid lavender;
+}
+
+#write_content>#content_input {
+    float: left;
+    width: 80%;
+    height: 150px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    padding-bottom: 110px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#write_content>#write_btn {
+    float: right;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: 180px;
+    right: 20px;
+}

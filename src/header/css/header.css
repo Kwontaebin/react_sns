@@ -1,0 +1,121 @@
+#header {
+    float: left;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+#header>#header_left {
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+
+#header_left>#header_home_img {
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+#header_left>label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+#header_left>label>#header_left_input_btn {
+    appearance: none;
+    position: relative;
+    border: max(2px, 0.1em) solid gray;
+    border-radius: 10px;
+    width: 50px;
+    height: 20px;
+}
+
+#header_left>label>#header_left_input_btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transform: scale(0.8);
+    background-color: gray;
+    transition: left 250ms linear;
+}
+
+#header_left>label>#header_left_input_btn:checked::before {
+    background-color: white;
+    left: 30px;
+    transition: left 250ms linear;
+}
+  
+#header_left>label>#header_left_input_btn:checked {
+    background-color: mediumpurple;
+    border-color: mediumpurple;
+}
+
+#header>#header_center {
+    float: left;
+    width: 34%;
+    height: 100%;
+}
+
+#header_center>#header_logo {
+    text-align: center;
+    font-family: "basic_font";
+    color: mediumpurple;
+    font-size: 60px;
+    position: relative;
+    bottom: 50px;
+}
+
+#header>#header_right {
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+
+#header_right>#header_list_img {
+    float: right;
+    position: relative;
+    top: 15px;
+    right: 30px;
+}
+
+#header_right>#header_list {
+    float: right;
+    width: 100px;
+    height: 160px;
+    background-color: white;
+    opacity: 0.8;
+    z-index: 1000;
+    display: none;
+    position: fixed;
+    bottom: 505px;
+    left: 900px;
+    text-align: center;
+}
+
+#header_list>#header_list_div1, #header_list_div2, #header_list_div3{
+    float: left;
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid black;
+}
+
+#header_list>div:nth-child(4) {
+    float: left;
+    width: 100%;
+    height: 25%;
+}
+
+#header_list>div>p {
+    position: relative;
+    bottom: 5px;
+}
