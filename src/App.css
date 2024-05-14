@@ -3,6 +3,7 @@
   src: url("./font/Cafe24Shiningstar-v2.0.ttf");
 }
 
+/* 마우스를 커서로 */
 p, span, h1 {
   cursor: pointer;
 }
